@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Roboto;
+    font-style: normal;  
+}
+.head {
+    width: 100%;
+}
+:root{
+    --warning: #B88917;
+}
+.botn{
+    background-color:  #B88917;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a.text-secondary:focus, a.text-secondary:hover {
+    color:var(--warning) !important;
+}
+.hero {
+    background-image:linear-gradient(90deg, #B88917 26%, rgba(184, 137, 23, 0.00) 51.26%),url(./pics/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.photoo img{
+    width: 100%;
+    height: 407px;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 25px 25px 25px 25px;
+}
+.heroo{
+    background-image:url(./pics/Group\ 69.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.anchor{
+    border-radius: 6px;
+}
+.lin{
+        width: 20%;
+        height: 1px;
+        border-radius: 5px;
+        margin-top: 13px;
+}
+.lie {
+    width: 45%;
+    height: 3px;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+.line {
+    width: 10%;
+    height: 3px;
+    background-color: #B88917;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+.anchor:hover{
+    background-color: black;
+    color: white;
+}
+.linee {
+    width: 10%;
+    height: 3px;
+    background-color: #B88917;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+.inline .tx {
+    color: #B88917;
+}
+p {
+    color: var(--Text-Color, #55595C);
+}
+section.row-3 {
+    padding-left: 100px;
+    position: relative;
+    z-index: 3;
+    bottom: 24px;
+    gap: 20px;
+}
+section.row-3 .content .col-6 .image {
+    background-image: url(./pics/good\ luck.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 441px;
+    height: 566px;
+}
+section.row-3 .content .col-6 .image .pic {
+    position: absolute;
+    top: 20%;
+    right: -11%;
+}
+section.row-3 .content .col-6 .image .card {
+    position: absolute;
+    top: 55%;
+    left: 80%;
+    background: var(--Primary, #B88917);
+}
+section.row-3 .content .col-6 .image .card .pics {
+    width: 64.027px;
+    height: 62.649px;
+    flex-shrink: 0;
+}
+.anchor a{
+    text-decoration: none;
+}
+.row-4{
+    margin: auto;
+    position: relative;
+    bottom: 50px;
+    z-index: 4;
+}
+.crd1{
+    background-image:linear-gradient(90deg, #B88917 0%, rgba(184, 137, 23, 0.00) 39.26%), url(./pics/1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.imageee1{
+    background-image:linear-gradient(90deg, #B88917 0%, rgba(184, 137, 23, 0.00) 39.26%), url(./pics/1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding-top: 369px;
+}
+
+.imageee2{
+    background-image:linear-gradient(90deg, #B88917 0%, rgba(184, 137, 23, 0.00) 39.26%), url(./pics/airport.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding-top: 369px;
+}
+
+.imageee3{
+    background-image:linear-gradient(90deg, #B88917 0%, rgba(184, 137, 23, 0.00) 39.26%), url(./pics/aeroplan.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding-top: 369px;
+}
+
+.imageee4{
+    background-image:linear-gradient(90deg, #B88917 0%, rgba(184, 137, 23, 0.00) 39.26%), url(./pics/doctor.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding-top: 369px;
+}
+
+.imageee5{
+    background-image:linear-gradient(90deg, #B88917 0%, rgba(184, 137, 23, 0.00) 39.26%), url(./pics/insurance.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding-top: 369px;
+}
+
+.imageee6{
+    background-image:linear-gradient(90deg, #B88917 0%, rgba(184, 137, 23, 0.00) 39.26%), url(./pics/description.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding-top: 369px;
+}
+
+.imageee7{
+    background-image:linear-gradient(90deg, #B88917 0%, rgba(184, 137, 23, 0.00) 39.26%), url(./pics/write.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding-top: 369px;
+}
+
+.imageee8{
+    background-image:linear-gradient(90deg, #B88917 0%, rgba(184, 137, 23, 0.00) 39.26%), url(./pics/broad\ maid.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding-top: 369px;
+}
+
+.imageee9{
+    background-image:linear-gradient(90deg, #B88917 0%, rgba(184, 137, 23, 0.00) 39.26%), url(./pics/patient.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding-top: 369px;
+}
+.pict img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.crd2{
+    background-image:linear-gradient(90deg, #B88917 0%, rgba(184, 137, 23, 0.00) 39.26%), url(./pics/2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.crd3{
+    background-image:linear-gradient(90deg, #B88917 0%, rgba(184, 137, 23, 0.00) 39.26%), url(./pics/3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.crd4{
+    background-image:linear-gradient(90deg, #B88917 0%, rgba(184, 137, 23, 0.00) 39.26%), url(./pics/4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.conten{
+    gap: 12px;
+    margin-top: 248px;
+    width: 85%;
+    border-radius: 0px 7px;
+}
+#dashed{
+    border: 2px dashed  #B88917;
+    border-radius: 10px;
+}
+.carddd{
+    padding: 20px 0px;
+    box-shadow: 4px 5px 60px 0px rgba(0, 0, 0, 0.10);
+    /* height: 40vmax; */
+    border-radius: 0px 10px 10px 0px;
+}
+.carddd .card1s{
+    width: 30%;
+background-color: #B88917;
+border-radius: 10px 0px 0px 10px;
+}
+ .anchorr {
+    background-color: #B88917;
+    border-radius: 6px;
+}
+.row-8 .col-2 .image{
+    position: relative;
+    bottom: 61%;
+    right: 20%;
+}
+.row-8 .col-4{
+    position: relative;
+    left: 0%;
+    top: 10%;
+}
+.row-8 .col-6{
+    position: relative;
+    left: 0%;
+    top: 10%;
+    background-color: transparent;
+}
+.email{
+    background-color: rgba(128, 128, 128, 0.116);
+    border: 1px solid white;
+    border-radius: 6px 0px 0px 6px;
+    border-right: none;
+    outline:none;
+}
+.anc{
+    border-radius: 6px;
+}
+.anch{
+    border-radius: 6px;
+}
+.submit{
+    background-color: #B88917;
+    border: 2px solid  #B88917;
+    border-radius: 0px 6px 6px 0px;
+    border-left: none
+}
+section.hg{
+    height: 9vmax;
+}
+.ico i{
+    color: #B88917;
+}
+.foot h3 span{
+    color: #B88917;
+}
+.row-9 .col-4 .anchor{
+    margin-top: 6px;
+}
+.fa-solid{
+    margin-top: 10px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 12px;
+  }
+  
+  td, th {
+    /* border: 1px solid #dddddd; */
+    text-align: left;
+    padding: 14px;
+    /* border-radius: 10px; */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+@media (max-width: 768px){
+    .head{
+        display: none;
+    }.log{
+        display: none;
+    } .row-1 .container-1{
+        flex-direction: column-reverse;    width: 95%;
+        margin: auto;
+    }.flu{
+        max-width: 95%;
+        margin: auto;
+    }
+    /* .row-1 .col-6 .image img{
+        width: 100%;
+    } */
+    .row-3 .content{
+        flex-direction: column-reverse;
+    } .ft{  max-width: 95%; margin: auto;} .row-4 .cards{ flex-direction: column;gap: 20px;}.col-8 .container{ flex-direction: column; gap: 20px;} .row-4{     margin-top: 50px;}  .row-5 .col-7{ flex-direction: column;  } .col-7 .col-4{ max-width: 75%; margin: auto;} .carddd{flex-direction: column;} .carddd .card1s {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        border-radius: 13px;
+    }
+    .sets{
+        max-width: 100%;
+    }
+    .row-7{
+        width: 60%;
+        margin: auto;
+    }
+    section.row-3{
+        padding-left: 0px;
+    }
+     .hg{
+display: none;
+        }
+        .row-9{
+            flex-direction: column;
+            justify-content: left;
+        }
+        #ab-line{
+            margin-top: 38px;
+        }
+    }
+        @media (max-width: 425px){
+            .carddd{flex-direction: column;} 
+            .card1s{
+                width: 100%;
+            }
+        }
